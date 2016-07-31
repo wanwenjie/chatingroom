@@ -1,0 +1,85 @@
+<style type="text/css">
+	body,input,form,p,h3,a{
+		margin:0;
+		padding:0;
+		background:#F6F6F6;
+	}
+	body{
+			background:url(/chatroom/img/wechat.jpg);
+			background-position:66% 33%;
+			background-repeat:no-repeat;
+		}
+	#br{
+		width:200px;
+		height:1px;
+		background:#D6D6D6;
+		margin:25px auto;
+	}
+	#showbx{
+		height:300px;
+		width:600px;
+	}
+	.btn{
+		background:#96b97d;
+		border-color:#96b97d;
+		margin:5px;
+	}
+	#btn_2{
+		margin-left:5px;
+	}
+	textarea{
+		border:1px solid #fff;
+		padding:5px;
+		padding-left:5px;
+	}
+		
+	.container{
+		height:auto;
+		width:300px;
+		background:#fff;
+		margin:0 auto;
+		border:1px solid #D6D6D6;
+		border-radius:10px;
+		margin-top:130px;
+	/* 	opacity:0.6; */
+		
+	}
+	#loginbtn{
+		display:block;
+		float:left;
+		margin-left:25px;
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+	.sign{
+		display:block;
+	}
+	#signbtn{
+		display:block;
+		float:right;
+		margin-top:15px;
+		margin-right:25px;
+		margin-bottom:15px;
+	}
+	#signbtn2{
+		display:block;
+		margin:10px 112px;
+	}
+	h3{
+		margin-top:25px;
+		text-align:center;
+		color:#96b97d;
+	}
+	.col-lg--10{
+		margin-top:15px;
+	}
+	
+	.sign_list{
+		margin-top:15px;
+	}
+	.firlogin{
+		margin-top:10px;
+		
+	}
+
+	</style>

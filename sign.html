@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap-master\dist\css\bootstrap.min.css">
+	<meta name="viewpoint" content="width=device-width,initial-scale=1.0,usr-scalable=no" >
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/jquery.min.js">
+	</script>
+	<title>注册</title>
+</head>
+<body>
+	<div class="container">
+		<h3>MOON 聊天室</h3>
+		<div id="br"></div>
+		<form action="dbconnect.php" method="post" class="form-horizontal" role="form" autocomplete="on">
+			<input type="text" name="username" class="form-control" placeholder="用户名*" >
+			<div class="col-lg--10">
+			<input type="password" name="password" class="form-control" placeholder="密码*" >
+			
+			</div>
+			<div class="col-lg--10">
+			<input type="password" name="confirm_password" class="form-control" placeholder="确认密码*" >
+			
+			</div>
+			<div class="sign">
+				<div class="sign_list mail">
+					<input type="mail" name="email" placeholder="邮箱" class="form-control">
+				</div>
+				<div class="sign_list signture">
+					<input type="text" name="signture" placeholder="个性签名" class="form-control">
+				</div>
+				<input type="submit" name="submit" id="signbtn2" class="btn btn-default btn-sm">			
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

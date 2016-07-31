@@ -1,0 +1,59 @@
+	body,input{
+			margin:0;
+			padding:0;
+			background:#F6F6F6;
+		}
+		h6{
+			margin:0;
+			padding:0;
+			color:#0078D7;
+		}
+	body{
+			background:url(/chatroom/img/wechat.jpg);
+			/* background:#F6F6F6; */
+			background-position:66% 33%;
+
+		}
+	.container{
+			margin:0 auto;
+			margin-top:70px;
+			height:auto;
+			width:auto;
+			border:1px solid #D6D6D6;
+			border-radius:5px;
+			background:#fff;
+		}
+
+	#br{
+		width:599px;
+		height:1px;
+		background:#D6D6D6;
+
+	}
+	
+	#showbx{
+		height:300px;
+		width:600px;
+		padding:20px;
+	}
+	.btn{
+		margin:5px;
+	}
+	#btn_2{
+		margin-left:5px;
+	}
+	textarea{
+		border:1px solid #fff;
+		padding:5px;
+		padding-left:5px;
+	}
+	.line{
+		height:300px;
+		width:300px;
+		background:#ddd;
+		float:left;
+	}
+	.row{
+		width:500px;
+		float:right;
+	}
